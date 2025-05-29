@@ -1,6 +1,12 @@
 
 
 function uppg3() {
+let a = 5
+let b = 10
+
+let sum = a + b
+
+console.log(sum)
 
     // Skriv ut summan av två tal
     // deklarera två variabler, a och b
@@ -11,5 +17,6 @@ function uppg3() {
 
 }
 
+uppg3()
 
 module.exports = { uppg3 };

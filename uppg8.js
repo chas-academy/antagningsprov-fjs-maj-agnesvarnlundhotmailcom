@@ -2,6 +2,24 @@
 
 function uppg8(){
 
+let listOfPersons = [
+    {name: "Agnes", age: 31},
+    {name: "Jonna", age: 27},
+    {name: "Anna", age: 31},
+    {name: "Elin", age: 34},
+    {name: "Rebecca", age: 28},
+]
+
+for (person of listOfPersons){
+    if (person.age > 30){
+        console.log(person.name)
+    }
+}
+
+}
+
+uppg8()
+
 // skapa en array med fem person obkjet
 // varje person objekt ska ha två properties, name och age
 
@@ -11,7 +29,5 @@ function uppg8(){
 
 // anropa funktionen och skicka med arrayen som argument
 
-
-}
 
 module.exports = { uppg8 };

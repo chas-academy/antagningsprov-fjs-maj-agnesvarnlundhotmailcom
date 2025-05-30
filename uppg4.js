@@ -5,7 +5,7 @@ let person = {
     age: 25,
 }
 
-console.log(person)
+console.log(person.age)
     // deklarera ett objekt med namnet person
     // objektet ska ha två properties, name och age
     // tilldela age 25

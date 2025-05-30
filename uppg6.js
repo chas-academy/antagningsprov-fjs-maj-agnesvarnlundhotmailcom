@@ -8,11 +8,11 @@ function uppg6(){
         {name: "Elin"},
     ]
 
-    console.log(names)
-
     // Skapa en array med namn som du döper till names
     // Loopa igenom arrayen och skriv ut alla namn i konsolen
-
+for (let i = 0; i < names.length; i ++){
+    console.log(names[i].name)
+}
  
 }
 
